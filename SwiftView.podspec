@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/blackschooltheory/SwiftView'
+  s.homepage         = 'git@github.com:blackschooltheory/SwiftView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'DLK' => '1455801522@qq.com' }
@@ -32,9 +32,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'SwiftView/Classes/**/*'
   
-  s.resource_bundles = {
-     'SwiftView' => ['SwiftView/Assets/*.png']
-   }
+  s.resources =  ['SwiftView/Assets/*.{bundle}']
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'

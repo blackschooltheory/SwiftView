@@ -1,0 +1,32 @@
+
+
+
+[
+["com_work_mode_low_no_support_full_record","All-day recording is not supported in low-power mode.","低功耗模式下不支持全天录像"],
+["com_work_mode_low_power_no_work","Low power mode is not working.","*低功耗模式不生效"],
+["com_work_mode_only_full_power","Only effective in full power mode","*仅在全功耗模式生效"],
+["com_work_dual_vision","Dual vision","双视野"],
+["com_work_single_vision","Single field of view","单视野"],
+["com_work_single_double_vision","Single and double vision","单双视野"],
+["com_low_battery_protection","Low battery protection","低电量保护"],
+["com_work_automatic_switching","Automatic switching","自动切换"],
+["com_work_low_power_battery_mode_desc","* Sensor-triggered alarm, long battery life, event recording.","* 传感器触发报警，续航时间长，事件录像"],
+["com_work_full_power_battery_mode_desc","* In this mode, the device monitors continuously 24/7, which will increase power consumption. It is recommended to use it while it is plugged in.","* 此模式下，设备7*24小时持续监控，耗电会加快，建议插电使用"],
+["com_work_automatic_switching_desc","* When plugged in, the device will automatically switch to full power mode.","* 插入电源时，设备将自动切换成全功耗模式"],
+["com_low_battery_protection_desc","Automatically switches to low power mode when battery level drops below a certain threshold; the default threshold is 20%.","低于一定电量时自动切换低功耗，默认阈值20%"]
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
