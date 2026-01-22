@@ -1,0 +1,29 @@
+PODS:
+  - Masonry (1.1.0)
+  - SVProgressHUD (2.3.1):
+    - SVProgressHUD/Core (= 2.3.1)
+  - SVProgressHUD/Core (2.3.1)
+  - SwiftView (0.1.0)
+
+DEPENDENCIES:
+  - Masonry (~> 1.1.0)
+  - SVProgressHUD (~> 2.3.1)
+  - SwiftView (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Masonry
+    - SVProgressHUD
+
+EXTERNAL SOURCES:
+  SwiftView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SVProgressHUD: 4837c74bdfe2e51e8821c397825996a8d7de6e22
+  SwiftView: 39084a8ed509581022f92ebdea6cd51c4f9fb2bd
+
+PODFILE CHECKSUM: 0be5643e4398a27282f585e54731b328ed1d905f
+
+COCOAPODS: 1.16.2

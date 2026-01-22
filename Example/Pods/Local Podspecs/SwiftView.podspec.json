@@ -1,0 +1,23 @@
+{
+  "name": "SwiftView",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/blackschooltheory/SwiftView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "DLK": "1455801522@qq.com"
+  },
+  "source": {
+    "git": "git@github.com:blackschooltheory/SwiftView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source_files": "SwiftView/Classes/**/*",
+  "frameworks": "UIKit"
+}

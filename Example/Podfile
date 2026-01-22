@@ -1,16 +1,19 @@
+
+source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '12.0'
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['ENABLE_BITCODE'] = 'NO'
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '12.0'
+    end
+  end
+end
 
 target 'SwiftView_Example' do
   pod 'SwiftView', :path => '../'
-
-  target 'SwiftView_Tests' do
-    inherit! :search_paths
-
-    pod 'Quick', '~> 2.2.0'
-    pod 'Nimble', '~> 10.0.0'
-    pod 'FBSnapshotTestCase' , '~> 2.1.4'
-    pod 'Nimble-Snapshots' , '~> 9.4.0'
-  end
+  pod 'Masonry', '~>1.1.0'
+  pod 'SVProgressHUD', '~>2.3.1'
 end
